@@ -1,11 +1,10 @@
-
-
-.container_menu-bar > ul{
-    display: flex;
-    flex-direction: row;
-
+.container_menu-bar > ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0; /* Removido o espaçamento padrão do elemento ul */
 }
-.container_menu-bar > ul >li {
-margin: right 20px;
-list-style: none ;
+
+.container_menu-bar > ul > li {
+  margin-right: 20px; /* Corrigido o erro na propriedade margin */
+  list-style: none;
 }

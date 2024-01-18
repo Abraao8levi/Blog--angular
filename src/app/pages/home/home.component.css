@@ -1,11 +1,8 @@
-.container_articles{
-  margin-top: 30 px ;
+.container__articles{
+  margin-top: 30px;
+
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-header {
-  margin-top: 15 px;
-  display: flex;
-  justify-content: center;
-}
+
